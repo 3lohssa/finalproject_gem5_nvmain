@@ -1,0 +1,4 @@
+Import('env')
+
+env.Program('quicksort', ['src/quicksort.c'])
+
